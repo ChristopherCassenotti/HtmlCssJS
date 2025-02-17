@@ -1,0 +1,10 @@
+.count{
+    display: flex;
+    height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+}
+.count-show{
+
+    height: 10rem;
+}
