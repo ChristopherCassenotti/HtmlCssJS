@@ -1,0 +1,112 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: azure;
+
+}
+.text_add{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    height: 80px;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%) translateY(-10%);
+}
+#input_text{
+    width: 80%;
+    font-size: 25px;
+    padding-left: 90px;
+}
+.add{
+    width: 20%;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.add:hover{
+    width: 21%;
+}
+.tarefa{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    height: 80px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px black;
+    margin-top: 5px;
+}
+.tarefa_check{
+    background-color: rgb(105, 219, 105);
+    height: 80px;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px green;
+    margin-top: 5px;
+}
+.tarefa_check span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    text-decoration: line-through;
+    font-size: 25px;
+    color: gray;
+}
+.tarefa span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 25px;
+}
+.delete{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%) translateX(-100%);
+    width: 15%;
+    height: 100%;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.delete:hover{
+    width: 16%;
+}
+.tarefa i{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%) translateX(-5%);
+    font-size: 25px;
+}
+.tarefa_check i{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%) translateX(-5%);
+    font-size: 25px;
+    color: green;
+}
+#tarefas{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+}
+

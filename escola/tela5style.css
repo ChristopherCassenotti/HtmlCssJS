@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 50px;
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    transform: translateX(-9%);
+}
+.linha{
+    border-bottom: solid 1px #DCDCDC;
+    width: 90%;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.exis{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    transform: translateX(-9%);
+    font-size: 20px;
+}
+.titu{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    transform: translateX(-9%);
+}
+input{
+    height: 40px;
+    width: 1000px;
+    position: absolute;
+    top: 43%;
+    left: 15%;
+    transform: translateX(-13%);
+    border-radius: 3px;
+    border: solid 1px #DCDCDC;
+}
+input::placeholder{
+    font-size: 20px;
+    color: #DCDCDC;
+    font-weight: bold;
+    position: inherit;
+    margin-left: 15px;
+    margin-top: -2px;
+}
+.limite{
+    position: absolute;
+    top: 50%;
+    left: 11%;
+    transform: translateX(-9%);
+    font-style: italic;
+}
+.lin{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateX(-9%);
+}
+select{
+    height: 40px;
+    width: 1000px;
+    position: absolute;
+    top: 68%;
+    left: 15%;
+    transform: translateX(-13%);
+    font-size: 20px;
+    border-radius: 3px;
+    border: solid 1px #DCDCDC;
+}
+.idio{
+    position: absolute;
+    top: 75%;
+    left: 11%;
+    transform: translateX(-9%);
+    font-style: italic;
+}
+button{
+    width: 280px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color:#00BFFF ;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 80%;
+    left: 8%;
+    transform: translateX(-9%);
+}
+.usu{
+    width: 175px;
+    height: 40px;
+    background-color: #DCDCDC;
+    border-radius: 300px;
+    position: absolute;
+    left: 82%;
+    top: 5%;
+}
+.bola{
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+    background-color: #00BFFF;
+    position: absolute;
+    left: 91%;
+    top: 5%;
+}
+#usua{
+    position: relative;
+    margin-left: 20px;
+    top: 5px;
+    font-weight: bold;    
+}
+#menu{
+    position: relative;
+    margin-left: 20px;
+    top: -15px;   
+    font-size: 15px;
+}

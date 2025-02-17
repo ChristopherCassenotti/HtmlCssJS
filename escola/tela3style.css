@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+}
+.box_colecao{
+    margin-top: 30px;
+    margin-left:95px ;
+    background-color: #C0C0C0;
+    width: 1000px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 30px 0px;
+}
+.box_colecao input{
+    width: 950px;
+    height: 30px;
+    position: relative;
+    left: 50%;
+    top: 48%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 3px;
+    border: none;
+}
+.box_colecao input::placeholder{
+    font-size: 15px;
+    position: inherit;
+    left: 2%;
+}
+.box_colecao p{
+    position: relative;
+    left: 20px;
+    top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alfabeto{
+    display: flex;
+    gap: 10px;
+    flex-direction:row;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+.alfabeto a{
+    color: black;
+    text-decoration: none;
+}
+.line{
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    border-bottom: 1px solid #D3D3D3;
+}
+.line p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: 	#00CED1;
+    font-weight: bold;
+}
+.books{
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+}
+.books img{
+    width: 150px;
+    border-radius: 2px;
+}
+.books p{
+    text-align: center;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4F4F4F;
+    font-weight: bold;
+}
+h2{
+    color: gray;
+    margin-left: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#todos{
+    color:#00CED1;
+}
+.filtros{
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+select{
+    width: 150px;
+    height: 30px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 13px;
+}
+#fil{
+    background-color: #00CED1;
+    color: white;
+    width: 100px;
+}
+.usuario{
+    background-color: #D3D3D3;
+    width: 145px;
+    height: 35px;
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    border-radius: 30px;
+}
+.usuario p{
+    margin-left: 20px;
+    margin-top: 2px;
+}
+#menu{
+    font-size: 13px;
+    margin-top: -20px;
+}
+.bola{
+    position: absolute;
+    top: 5%;
+    left: 96%;
+    width: 35px;
+    height: 35px;
+    border-radius: 300px;
+    background-color: #00CED1;
+}

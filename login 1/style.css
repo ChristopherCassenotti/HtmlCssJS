@@ -1,0 +1,104 @@
+body{
+    background-image: url(https://wallpaperwaifu.com/wp-content/uploads/2020/03/hollow-knight-voidheart-thumb.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login{
+    border: 1px solid black;
+    width: 400px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    color:white;
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+form{
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: brightness(40%);
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 5px;
+}
+label{
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    text-shadow: 0px 0px 5px black;
+}
+h1{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-weight: normal;
+    text-shadow: 0px 0px 10px white;
+}
+input{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    border: 1px black;
+    height: 24px;
+    padding: 0px 20px;
+    color: white;
+}
+#nome{
+    margin-bottom: 35px;
+}
+button{
+    border: none;
+    width: 200px;
+    height: 25px;
+    margin-left: 63px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px gray;
+    cursor: pointer;
+
+}
+button:hover{
+    transition-duration: 0.5s;
+    background-color: white;
+    color: black;
+    width: 202px;
+    height: 26px;
+    box-shadow: 0px 0px 10px black;
+}
+span{
+    font-size: 10px;
+    text-transform: uppercase;
+}
+#Sing-up{
+    padding-left: 70px;
+}
+#Forgot-Password{
+    padding-left: 60px;
+    margin-bottom: 40px;
+}
+a{
+    font-size: 10px;
+    color: red;
+    text-transform: uppercase;
+    text-decoration: none;
+} 
+a:hover{
+    font-size: 13px;
+    transition-duration: 0.5s;
+}

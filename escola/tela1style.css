@@ -1,0 +1,192 @@
+*{
+    margin: 0 0;
+    padding: 0 0 0;
+
+}
+header{
+    width: 100vw;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+}
+header h1{
+    position: absolute;
+    top: 3%;
+    left: 18%;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header button{
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 20px;
+    position: relative;
+    top: 25%;
+    left: 60%;
+    transform: translateX(-25%);
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+header button:hover{
+    transition: 0.5s;
+    height: 45px;
+    width: 310px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: 35%;
+    left: 55%;
+}
+header a:hover{
+    transition: 0.5s;
+    font-size: 23px;
+}
+.box_login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 650px;
+    height: 550px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 15px;
+    border: none;
+}
+.email{
+    width: 500px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    border: solid black 1px;
+}
+.senha{
+    width: 500px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    border: solid black 1px;
+}
+#lembre{
+    position: absolute;
+    left: 13%;
+    top: 60%;
+    transform: translateX(-50%);
+}
+.remember{
+    position: absolute;
+    left: 15%;
+    top: 59.5%;
+}
+.box_login button{
+    width: 500px;
+    height: 60px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+    border: none;
+    background-color: #00BFFF;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.box_login button:hover{
+    transition: 0.5s;
+    width: 510px;
+    height: 65px;
+}
+.box_login h2{
+    font-size: 20px;
+    position: absolute;
+    left: 10%;
+    top: 8%;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.box_login .titlee{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+}
+.about{
+    width: 650px;
+    height: 87px;
+    border-radius: 0px 0px 5px 5px;
+    position:absolute;
+    top: 69.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 1px 5px;
+    overflow: hidden;
+    border: none;
+}
+.about p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 20px;
+}
+.about a{
+    text-decoration: none;
+    color: #00BFFF;
+}
+.box_login .email::placeholder{
+    position: inherit;
+    left: 5%;
+    font-size: 18px;
+}
+.box_login .senha::placeholder{
+    position: inherit;
+    left: 5%;
+    font-size: 18px;
+}
+.box_login .senha:focus::placeholder{
+    transition: 0.3s;
+    position: inherit;
+    left: 0%;
+    font-size: 0px;
+}
+.box_login .email:focus::placeholder{
+    transition: 0.3s;
+    position: inherit;
+    left: 0%;
+    font-size: 0px;
+}
+.iniciarr{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+    font-size: 17px;
+}
+.cadastroo{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+    font-size: 17px;
+}

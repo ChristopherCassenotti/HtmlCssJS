@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="caculadora">
+        <p id="resultado"></p>
+        <p id="line"></p>
+        <div id="buttons">
+            <button div="btn" onclick="addViewport('1')" id="btn_1">1</button>
+            <button div="btn" onclick="addViewport('2')" id="btn_2">2</button>
+            <button div="btn" onclick="addViewport('3')" id="btn_3">3</button>
+            <button div="btn" id="clean" onclick="clean()">C</button>
+            <button div="btn" onclick="addViewport('4')" id="btn_4">4</button>
+            <button div="btn" onclick="addViewport('5')" id="btn_5">5</button>
+            <button div="btn" onclick="addViewport('6')" id="btn_6">6</button>
+            <button div="btn" id="divisao" onclick="addViewport('/')">÷</button>
+            <button div="btn" onclick="addViewport('7')" id="btn_7">7</button>
+            <button div="btn" onclick="addViewport('8')" id="btn_8">8</button>
+            <button div="btn" onclick="addViewport('9')" id="btn_9">9</button>
+            <button div="btn" id="multiplicacao" onclick="addViewport('*')">X</button>
+            <button div="btn" id="subtracao" onclick="addViewport('-')">-</button>
+            <button div="btn" onclick="addViewport('0')" id="btn_0">0</button>
+            <button div="btn" id="soma" onclick="addViewport('+')">+</button>
+            <button div="btn" id="ponto" onclick="addViewport('.')">,</button>
+            <button div="btn" id="calcular" onclick="calcular()">=</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
